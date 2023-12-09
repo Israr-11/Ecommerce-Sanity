@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-import { urlFor } from '../lib/client';
+import { urlFor } from "../lib/client";
 
 const Product = ({ product: { image, name, slug, price } }) => {
   //
@@ -21,7 +21,7 @@ const Product = ({ product: { image, name, slug, price } }) => {
         </div>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;
